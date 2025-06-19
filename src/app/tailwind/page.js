@@ -8,12 +8,12 @@ export default function TailwindPage() {
             </p>
 
             <div className="space-y-6">
-                {/* Botón */}
+                {/* Botón De Ejemplo. */}
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
                     Botón Tailwind
                 </button>
 
-                {/* Tarjeta */}
+                {/* Tarjeta De Ejemplo */}
                 <div className="border rounded-lg p-4 shadow-md max-w-sm">
                     <h2 className="text-xl font-semibold mb-2">Tarjeta</h2>
                     <p className="text-gray-700">
@@ -21,7 +21,7 @@ export default function TailwindPage() {
                     </p>
                 </div>
 
-                {/* Alerta */}
+                {/* Alerta De Ejemplo. */}
                 <div className="bg-yellow-100 text-yellow-800 px-4 py-2 rounded">
                     ⚠️ Esto es una alerta de ejemplo.
                 </div>
