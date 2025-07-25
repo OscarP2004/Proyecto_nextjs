@@ -3,14 +3,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      {/* Navbar */}
       <nav className="bg-gray-900 w-full p-4 shadow-md fixed top-0 left-0 z-10">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          {/* Logo o título */}
           <Link href="/" className="text-white text-xl font-bold">
             Mi Proyecto
           </Link>
-          {/* Links */}
           <div className="flex space-x-4">
             <Link href="/nextjs" className="text-gray-300 hover:text-white transition">
               Next.js
@@ -18,16 +15,14 @@ export default function Home() {
             <Link href="/tailwind" className="text-gray-300 hover:text-white transition">
               Tailwind CSS
             </Link>
-            <Link href="/sistemas_operativos" className="text-gray-300 hover:text-white transition">
+            <Link href="/Tema_libre" className="text-gray-300 hover:text-white transition">
               Tema Libre
             </Link>
           </div>
         </div>
       </nav>
 
-      {/* Contenido principal */}
       <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-600 via-purple-700 to-pink-600 text-white p-6 pt-24">
-        {/* pt-24 para que no tape el navbar */}
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           Bienvenido a mi primer proyecto con Next.js
         </h1>
